@@ -1,0 +1,379 @@
+/* ==========================================================================
+   PORTAL OGI — UNALM: SISTEMA DE DISEÑO INSTITUCIONAL (CSS TOKENS & ESTILOS)
+   ========================================================================== */
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    /* Paleta Institucional UNALM */
+    --color-molinero-primary: #0F5132;
+    --color-molinero-dark: #0A3622;
+    --color-molinero-light: #198754;
+    --color-molinero-soft: #D1E7DD;
+    --color-molinero-gold: #C59B27;
+    --color-molinero-gold-light: #F4D06F;
+
+    /* Superficies y Neutros (Modo Claro) */
+    --bg-page: #F8F9FA;
+    --bg-surface: #FFFFFF;
+    --bg-surface-elevated: #FFFFFF;
+    --border-color: #E5E7EB;
+    --border-color-subtle: #F3F4F6;
+    --text-primary: #1F2937;
+    --text-secondary: #4B5563;
+    --text-muted: #6B7280;
+
+    /* Header y Navegación */
+    --nav-bg-scrolled: rgba(255, 255, 255, 0.95);
+    --nav-border-scrolled: rgba(229, 231, 235, 0.8);
+    --nav-text: #1F2937;
+
+    /* Sombras accesibles */
+    --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.05);
+    --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    --shadow-elevated: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.08);
+
+    /* Enfoque accesible */
+    --focus-ring: #0F5132;
+  }
+
+  .dark {
+    /* Superficies y Neutros (Modo Oscuro Molinero) */
+    --bg-page: #0B1410;
+    --bg-surface: #121F19;
+    --bg-surface-elevated: #182B23;
+    --border-color: #243E32;
+    --border-color-subtle: #1A2F25;
+    --text-primary: #F3F4F6;
+    --text-secondary: #D1D5DB;
+    --text-muted: #9CA3AF;
+
+    /* Header y Navegación */
+    --nav-bg-scrolled: rgba(18, 31, 25, 0.95);
+    --nav-border-scrolled: rgba(36, 62, 50, 0.8);
+    --nav-text: #F3F4F6;
+
+    /* Sombras para modo oscuro */
+    --shadow-subtle: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+    --shadow-elevated: 0 10px 20px -3px rgba(0, 0, 0, 0.6);
+
+    /* Enfoque accesible en modo oscuro */
+    --focus-ring: #20C997;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text-primary);
+    background-color: var(--bg-page);
+  }
+
+  body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Reglas universales para alternancia de logos en Modo Claro y Modo Oscuro */
+.logo-light-mode {
+  display: block !important;
+}
+.logo-dark-mode {
+  display: none !important;
+}
+
+html.dark .logo-light-mode {
+  display: none !important;
+}
+html.dark .logo-dark-mode {
+  display: block !important;
+}
+
+/* Reglas universales para icono de tema sol (en oscuro) / luna (en claro) */
+.theme-icon-sun {
+  display: none !important;
+}
+.theme-icon-moon {
+  display: block !important;
+}
+
+html.dark .theme-icon-sun {
+  display: block !important;
+}
+html.dark .theme-icon-moon {
+  display: none !important;
+}
+
+/* Transición suave para cambio de tema */
+html.theme-transition,
+html.theme-transition *,
+html.theme-transition *:before,
+html.theme-transition *:after {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease !important;
+}
+
+/* Enfoque accesible */
+*:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* Header sticky con blur dinámico */
+.header-sticky {
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
+}
+
+.header-sticky.scrolled {
+  background-color: var(--nav-bg-scrolled);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--nav-border-scrolled);
+  box-shadow: var(--shadow-card);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* ==========================================================================
+   HEADER CON SUPERPOSICIÓN SOBRE EL BANNER (OVERLAY HEADER MODE)
+   ========================================================================== */
+.header-overlay-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 40;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header-overlay-wrapper.is-scrolled {
+  position: fixed;
+  top: 0;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.15);
+  animation: headerSlideDown 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes headerSlideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* En la parte superior (sin scroll): Barra superior translúcida */
+.header-overlay-wrapper:not(.is-scrolled) .header-topbar {
+  background-color: rgba(10, 54, 34, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  color: #E6F4EA;
+}
+
+/* En scroll: la barra superior se contrae suavemente para dejar espacio al navbar */
+.header-overlay-wrapper.is-scrolled .header-topbar {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+  border-bottom-width: 0;
+  opacity: 0;
+  transition: all 0.25s ease;
+}
+
+/* En la parte superior: Navbar completamente transparente sobre el Hero */
+.header-overlay-wrapper:not(.is-scrolled) .header-main {
+  background-color: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: none !important;
+}
+
+.header-overlay-wrapper:not(.is-scrolled) .header-brand-title {
+  color: #FFFFFF !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.header-overlay-wrapper:not(.is-scrolled) .header-brand-subtitle {
+  color: #D1E7DD !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header-overlay-wrapper:not(.is-scrolled) .header-brand-divider {
+  border-color: rgba(255, 255, 255, 0.35) !important;
+}
+
+.header-overlay-wrapper:not(.is-scrolled) .nav-link-btn {
+  color: #FFFFFF !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.header-overlay-wrapper:not(.is-scrolled) .nav-link-btn:hover {
+  color: #A7F3D0 !important;
+}
+
+.header-overlay-wrapper:not(.is-scrolled) .nav-link-active {
+  color: #FFFFFF !important;
+  border-bottom-color: #F4D06F !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.header-overlay-wrapper:not(.is-scrolled) .header-util-btn {
+  border-color: rgba(255, 255, 255, 0.35) !important;
+  color: #FFFFFF !important;
+  background-color: rgba(0, 0, 0, 0.25) !important;
+  backdrop-filter: blur(4px);
+}
+
+.header-overlay-wrapper:not(.is-scrolled) .header-util-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.header-overlay-wrapper:not(.is-scrolled) .header-lang-btn {
+  color: #FFFFFF !important;
+}
+
+/* En la parte superior (sin scroll): Mostrar siempre el logo con letras blancas para máximo contraste sobre el banner */
+.header-overlay-wrapper:not(.is-scrolled) .logo-on-overlay {
+  display: block !important;
+}
+.header-overlay-wrapper:not(.is-scrolled) .logo-light-mode,
+.header-overlay-wrapper:not(.is-scrolled) .logo-dark-mode {
+  display: none !important;
+}
+
+/* En estado con scroll: Navbar sólido con blur */
+.header-overlay-wrapper.is-scrolled .header-main {
+  background-color: var(--nav-bg-scrolled) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid var(--nav-border-scrolled) !important;
+  box-shadow: var(--shadow-card) !important;
+}
+
+.header-overlay-wrapper.is-scrolled .logo-on-overlay {
+  display: none !important;
+}
+
+/* Componentes y utilidades */
+.btn-molinero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--color-molinero-primary);
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-molinero:hover {
+  background-color: var(--color-molinero-dark);
+  color: #FFFFFF;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-card);
+}
+
+.btn-molinero-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: transparent;
+  color: var(--color-molinero-primary);
+  border: 1.5px solid var(--color-molinero-primary);
+  font-weight: 600;
+  padding: 0.55rem 1.2rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.dark .btn-molinero-outline {
+  color: #20C997;
+  border-color: #20C997;
+}
+
+.btn-molinero-outline:hover {
+  background-color: var(--color-molinero-primary);
+  color: #FFFFFF;
+}
+
+.dark .btn-molinero-outline:hover {
+  background-color: #20C997;
+  color: #0B1410;
+}
+
+/* Tarjetas institucionales */
+.card-molinero {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card-molinero:hover {
+  border-color: var(--color-molinero-light);
+  box-shadow: var(--shadow-elevated);
+  transform: translateY(-2px);
+}
+
+/* Insignias */
+.badge-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.625rem;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-vigente {
+  background-color: rgba(25, 135, 84, 0.15);
+  color: #198754;
+  border: 1px solid rgba(25, 135, 84, 0.3);
+}
+
+.dark .badge-vigente {
+  background-color: rgba(32, 201, 151, 0.2);
+  color: #20C997;
+  border-color: rgba(32, 201, 151, 0.4);
+}
+
+.badge-por-vencer {
+  background-color: rgba(255, 193, 7, 0.15);
+  color: #B45309;
+  border: 1px solid rgba(255, 193, 7, 0.3);
+}
+
+.badge-vencido {
+  background-color: rgba(220, 53, 69, 0.15);
+  color: #DC3545;
+  border: 1px solid rgba(220, 53, 69, 0.3);
+}
+
+/* Soporte para movimiento reducido */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

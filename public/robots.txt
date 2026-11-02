@@ -1,0 +1,25 @@
+# ==============================================================================
+# Robots.txt - Universidad Nacional Agraria La Molina (UNALM)
+# Portal Oficial OGI - Oficina de Gestión Interinstitucional y Asuntos Globales
+# Cumplimiento: Google Search Central / Robots Exclusion Protocol (REP)
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /la-ogi/
+Allow: /convenios/
+Allow: /movilidad/
+Allow: /becas-y-convocatorias/
+Allow: /noticias-y-eventos/
+Allow: /recursos-y-documentos/
+Allow: /contacto
+Allow: /sitemap.xml
+
+# Exclusión de Intranet Administrativa, Autenticación y Endpoints Privados
+Disallow: /intranet/
+Disallow: /intranet/*
+Disallow: */intranet/
+Disallow: */intranet/*
+
+# Ubicación del Sitemap XML oficial para indexación en Google y Bing
+Sitemap: https://www.lamolina.edu.pe/pruebas1/david/OGI/public/sitemap.xml

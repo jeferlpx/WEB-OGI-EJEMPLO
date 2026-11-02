@@ -1,0 +1,520 @@
+[
+    {
+        "country": "Alemania",
+        "institution": "University of Applied Sciences (HTWD)",
+        "title": "Convenio de Cooperaci\u00f3n con University of Applied Sciences (HTWD)",
+        "file": "documentos/1._University_of_Applied_Sciences__HTWD__-_ALEMANIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Alemania",
+        "institution": "Uiversidad de Magdeburg Otto Von Guericke (OVGU)",
+        "title": "Convenio de Cooperaci\u00f3n con Uiversidad de Magdeburg Otto Von Guericke (OVGU)",
+        "file": "documentos/2._Uiversidad_de_Magdeburg_Otto_Von_Guericke__OVGU__-_ALEMANIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Finlandia",
+        "institution": "University of Turku",
+        "title": "Convenio de Cooperaci\u00f3n con University of Turku",
+        "file": "documentos/36._University_of_Turku_-_FINLANDIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Honduras",
+        "institution": "Universidad Nacional de Ciencias Forestales (UNACIFOR)",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Nacional de Ciencias Forestales (UNACIFOR)",
+        "file": "documentos/37._Universidad_Nacional_de_Ciencias_Forestales__UNACIFOR__-_HONDURAS.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Italia",
+        "institution": "Universita Degli Studi Della Basilicata",
+        "title": "Convenio de Cooperaci\u00f3n con Universita Degli Studi Della Basilicata",
+        "file": "documentos/38._Universita_Degli_Studi_Della_Basilicata_-_ITALIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Italia",
+        "institution": "Universit\u00e0 degli Studi Di Ferrara",
+        "title": "Convenio de Cooperaci\u00f3n con Universit\u00e0 degli Studi Di Ferrara",
+        "file": "documentos/39._Universit___degli_Studi_Di_Ferrara_-_ITALIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Italia",
+        "institution": "Universita Degli Studi Di Milano",
+        "title": "Convenio de Cooperaci\u00f3n con Universita Degli Studi Di Milano",
+        "file": "documentos/40._Universita_Degli_Studi_Di_Milano_-_ITALIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "India",
+        "institution": "Shri Venkateshwara University India",
+        "title": "Convenio de Cooperaci\u00f3n con Shri Venkateshwara University India",
+        "file": "documentos/41._Shri_Venkateshwara_University_India_-_INDIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Jap\u00f3n",
+        "institution": "University of Miyazaki",
+        "title": "Convenio de Cooperaci\u00f3n con University of Miyazaki",
+        "file": "documentos/42._University_of_Miyazaki_-_JAP__N.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Jap\u00f3n",
+        "institution": "Yamaguchi University",
+        "title": "Convenio de Cooperaci\u00f3n con Yamaguchi University",
+        "file": "documentos/43._Yamaguchi_University_-_JAP__N.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Jap\u00f3n",
+        "institution": "Yamagata University",
+        "title": "Convenio de Cooperaci\u00f3n con Yamagata University",
+        "file": "documentos/44._Yamagata_University_-_JAP__N.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Jap\u00f3n",
+        "institution": "Tokyo University of Marine Science and Technology (TUMSAT)",
+        "title": "Convenio de Cooperaci\u00f3n con Tokyo University of Marine Science and Technology (TUMSAT)",
+        "file": "documentos/45._Tokyo_University_of_Marine_Science_and_Technology__TUMSAT__-_JAP__N.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Jap\u00f3n",
+        "institution": "Tokyo University of Agriculture and Technology (TUAT)",
+        "title": "Convenio de Cooperaci\u00f3n con Tokyo University of Agriculture and Technology (TUAT)",
+        "file": "documentos/46._Tokyo_University_of_Agriculture_and_Technology__TUAT__-_JAP__N.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Jap\u00f3n",
+        "institution": "Mie University",
+        "title": "Convenio de Cooperaci\u00f3n con Mie University",
+        "file": "documentos/48._Mie_University_-_JAP__N.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "M\u00e9xico",
+        "institution": "Universidad Polit\u00e9cnica de Pachuca",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Polit\u00e9cnica de Pachuca",
+        "file": "documentos/49._Universidad_Polit__cnica_de_Pachuca_-_M__XICO.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "M\u00e9xico",
+        "institution": "Universidad Popular Aut\u00f3noma  del Estado de Puebla (UPAEP)",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Popular Aut\u00f3noma  del Estado de Puebla (UPAEP)",
+        "file": "documentos/50._Universidad_Popular_Aut__noma__del_Estado_de_Puebla__UPAEP__-_M__XICO.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "M\u00e9xico",
+        "institution": "Universidad Veracruzana",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Veracruzana",
+        "file": "documentos/51._Universidad_Veracruzana_-_M__XICO.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "M\u00e9xico",
+        "institution": "Universidad Aut\u00f3noma de Yucat\u00e1n",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Aut\u00f3noma de Yucat\u00e1n",
+        "file": "documentos/52._Universidad_Aut__noma_de_Yucat__n_-_M__XICO.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Portugal",
+        "institution": "Universidad de Lisboa",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de Lisboa",
+        "file": "documentos/53._Universidad_de_Lisboa_-_PORTUGAL.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Portugal",
+        "institution": "Instituto Superior de Agronom\u00eda (School of Agriculture) of Universidade de Lisboa",
+        "title": "Convenio de Cooperaci\u00f3n con Instituto Superior de Agronom\u00eda (School of Agriculture) of Universidade de Lisboa",
+        "file": "documentos/54._Instituto_Superior_de_Agronom__a__School_of_Agriculture__of_Universidade_de_Lisboa_-_PORTUGAL.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Rusia",
+        "institution": "Lomonosov Moscow State University",
+        "title": "Convenio de Cooperaci\u00f3n con Lomonosov Moscow State University",
+        "file": "documentos/55._Lomonosov_Moscow_State_University_-_RUSIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Rusia",
+        "institution": "Universidad de Rusia de Amistad de los Pueblos (URAP)",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de Rusia de Amistad de los Pueblos (URAP)",
+        "file": "documentos/56._Universidad_de_Rusia_de_Amistad_de_los_Pueblos__URAP__-_RUSIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Turqu\u00eda",
+        "institution": "Nigde Omer Halisdemir University",
+        "title": "Convenio de Cooperaci\u00f3n con Nigde Omer Halisdemir University",
+        "file": "documentos/57._Nigde_Omer_Halisdemir_University_-_TURQUIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Usa",
+        "institution": "Iowa State University of Science and Technology",
+        "title": "Convenio de Cooperaci\u00f3n con Iowa State University of Science and Technology",
+        "file": "documentos/58._Iowa_State_University_of_Science_and_Technology_-_USA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Usa",
+        "institution": "North Carolina State University",
+        "title": "Convenio de Cooperaci\u00f3n con North Carolina State University",
+        "file": "documentos/59._North_Carolina_State_University_-_USA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Usa",
+        "institution": "Michigan State University",
+        "title": "Convenio de Cooperaci\u00f3n con Michigan State University",
+        "file": "documentos/60._Michigan_State_University_-_USA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Usa",
+        "institution": "University of Central Oklahoma (UCO)",
+        "title": "Convenio de Cooperaci\u00f3n con University of Central Oklahoma (UCO)",
+        "file": "documentos/61._University_of_Central_Oklahoma__UCO__-_USA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Usa",
+        "institution": "Western Washington University",
+        "title": "Convenio de Cooperaci\u00f3n con Western Washington University",
+        "file": "documentos/62._Western_Washington_University_-_USA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Usa",
+        "institution": "Cornell University",
+        "title": "Convenio de Cooperaci\u00f3n con Cornell University",
+        "file": "documentos/63._Cornell_University_-_USA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Usa",
+        "institution": "University of North Carolina at Wilmington",
+        "title": "Convenio de Cooperaci\u00f3n con University of North Carolina at Wilmington",
+        "file": "documentos/65._University_of_North_Carolina_at_Wilmington_-USA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Usa",
+        "institution": "Oregon State University",
+        "title": "Convenio de Cooperaci\u00f3n con Oregon State University",
+        "file": "documentos/66._Oregon_State_University_-_USA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Usa",
+        "institution": "University of Michigan",
+        "title": "Convenio de Cooperaci\u00f3n con University of Michigan",
+        "file": "documentos/67._University_of_Michigan_-_USA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Argentina",
+        "institution": "Universidad de Buenos Aires (Facultad de ciencias exactas y naturales)",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de Buenos Aires (Facultad de ciencias exactas y naturales)",
+        "file": "documentos/3._Universidad_de_Buenos_Aires__Facultad_de_ciencias_exactas_y_naturales__-_ARGENTINA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Argentina",
+        "institution": "Facultad de Agronom\u00eda de la Universidad de Buenos Aires",
+        "title": "Convenio de Cooperaci\u00f3n con Facultad de Agronom\u00eda de la Universidad de Buenos Aires",
+        "file": "documentos/4._Facultad_de_Agronom__a_de_la_Universidad_de_Buenos_Aires_-_ARGENTINA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Argentina",
+        "institution": "Universidad Nacional de Jujuy (UNJu)",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Nacional de Jujuy (UNJu)",
+        "file": "documentos/5._Universidad_Nacional_de_Jujuy__UNJu__-_ARGENTINA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Austria",
+        "institution": "University of Natural Resources and Life Sciences (BOKU)",
+        "title": "Convenio de Cooperaci\u00f3n con University of Natural Resources and Life Sciences (BOKU)",
+        "file": "documentos/6._University_of_Natural_Resources_and_Life_Sciences__BOKU__-_AUSTRIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Austria",
+        "institution": "University of Natural Resources and Life Sciences (BOKU)",
+        "title": "Convenio de Cooperaci\u00f3n con University of Natural Resources and Life Sciences (BOKU)",
+        "file": "documentos/7._University_of_Natural_Resources_and_Life_Sciences__BOKU__-_AUSTRIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Brasil",
+        "institution": "Universidad Federal de Santa Catarina (UFSC)",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Federal de Santa Catarina (UFSC)",
+        "file": "documentos/10._Universidad_Federal_de_Santa_Catarina__UFSC__-_BRASIL.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Brasil",
+        "institution": "Universidad Federal Rural de R\u00edo de Janeiro (UFRRJ)",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Federal Rural de R\u00edo de Janeiro (UFRRJ)",
+        "file": "documentos/11._Universidad_Federal_Rural_de_R__o_de_Janeiro__UFRRJ__-_BRASIL.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Brasil",
+        "institution": "Universidad Federal de Paran\u00e1 (UFPR)",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Federal de Paran\u00e1 (UFPR)",
+        "file": "documentos/8._Universidad_Federal_de_Paran____UFPR__-_BRASIL.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Brasil",
+        "institution": "Pontificia Universidad Cat\u00f3lica de R\u00edo de Janeiro",
+        "title": "Convenio de Cooperaci\u00f3n con Pontificia Universidad Cat\u00f3lica de R\u00edo de Janeiro",
+        "file": "documentos/9._Pontificia_Universidad_Cat__lica_de_R__o_de_Janeiro_-_BRASIL.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Chile",
+        "institution": "Pontificia Universidad Cat\u00f3lica de Valparaiso",
+        "title": "Convenio de Cooperaci\u00f3n con Pontificia Universidad Cat\u00f3lica de Valparaiso",
+        "file": "documentos/12._Pontificia_Universidad_Cat__lica_de_Valparaiso_-_CHILE.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Chile",
+        "institution": "Universidad de Concepci\u00f3n",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de Concepci\u00f3n",
+        "file": "documentos/13._Universidad_de_Concepci__n_-_CHILE.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Chile",
+        "institution": "Universidad de O\u00b4Higgins",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de O\u00b4Higgins",
+        "file": "documentos/14._Universidad_de_O__Higgins_-_CHILE.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Chile",
+        "institution": "Universidad de Chile",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de Chile",
+        "file": "documentos/15._Universidad_de_Chile_-_Facultad_de_Ciencias_Agron__micas_-_CHILE.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Chile",
+        "institution": "Pontificia Universidad Cat\u00f3lica de Valparaiso (PUCV)",
+        "title": "Convenio de Cooperaci\u00f3n con Pontificia Universidad Cat\u00f3lica de Valparaiso (PUCV)",
+        "file": "documentos/16._Pontificia_Universidad_Cat__lica_de_Valparaiso__PUCV__-_Facultad_de_Ciencias_Agron__micas_y_de_los_Alimentos_-_CHILE.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Chile",
+        "institution": "Universidad de Temuco",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de Temuco",
+        "file": "documentos/17._Universidad_de_Temuco_-_CHILE.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Chile",
+        "institution": "Universidad de Tarapac\u00e1",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de Tarapac\u00e1",
+        "file": "documentos/18._Universidad_de_Tarapac___-CHILE.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Colombia",
+        "institution": "Universidad de la Salle",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de la Salle",
+        "file": "documentos/19._Universidad_de_la_Salle_-_COLOMBIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Colombia",
+        "institution": "Fundaci\u00f3n Universitaria Agraria de Colombia (UNIAGRARIA)",
+        "title": "Convenio de Cooperaci\u00f3n con Fundaci\u00f3n Universitaria Agraria de Colombia (UNIAGRARIA)",
+        "file": "documentos/20._Fundaci__n_Universitaria_Agraria_de_Colombia__UNIAGRARIA__-_COLOMBIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Colombia",
+        "institution": "Universidad Francisco de Paula Santander Oca\u00f1a",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Francisco de Paula Santander Oca\u00f1a",
+        "file": "documentos/21._Universidad_Francisco_de_Paula_Santander_Oca__a_-_COLOMBIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Colombia",
+        "institution": "Universidad Nacional de Colombia",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Nacional de Colombia",
+        "file": "documentos/22._Universidad_Nacional_de_Colombia_-_COLOMBIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Colombia",
+        "institution": "Universidad Pedag\u00f3gica y Tecnol\u00f3gica de Colombia",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Pedag\u00f3gica y Tecnol\u00f3gica de Colombia",
+        "file": "documentos/23._Universidad_Pedag__gica_y_Tecnol__gica_de_Colombia_-_COLOMBIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Colombia",
+        "institution": "Universidad Distrital Francisco Jos\u00e9 de Caldas",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Distrital Francisco Jos\u00e9 de Caldas",
+        "file": "documentos/24._Universidad_Distrital_Francisco_Jos___de_Caldas_-_COLOMBIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Ecuador",
+        "institution": "Escuela Superior Polit\u00e9cnica del Litoral (ESPOL)",
+        "title": "Convenio de Cooperaci\u00f3n con Escuela Superior Polit\u00e9cnica del Litoral (ESPOL)",
+        "file": "documentos/25._Escuela_Superior_Polit__cnica_del_Litoral__ESPOL__-_ECUADOR.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Ecuador",
+        "institution": "Escuela Superior Polit\u00e9cnica de Chimborazo (ESPOCH)",
+        "title": "Convenio de Cooperaci\u00f3n con Escuela Superior Polit\u00e9cnica de Chimborazo (ESPOCH)",
+        "file": "documentos/26._Escuela_Superior_Polit__cnica_de_Chimborazo__ESPOCH_-ECUADOR.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Espa\u00f1a",
+        "institution": "Universidad Polit\u00e9cnica de Madrid",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Polit\u00e9cnica de Madrid",
+        "file": "documentos/27._Universidad_Polit__cnica_de_Madrid_-_ESPA__A.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Espa\u00f1a",
+        "institution": "Universidad Miguel Hern\u00e1ndez de Elche",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Miguel Hern\u00e1ndez de Elche",
+        "file": "documentos/28._Universidad_Miguel_Hern__ndez_de_Elche_-__ESPA__A.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Espa\u00f1a",
+        "institution": "Universidad de Ja\u00e9n",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de Ja\u00e9n",
+        "file": "documentos/29._Universidad_de_Ja__n_-_ESPA__A.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Espa\u00f1a",
+        "institution": "Universidad de Sevilla",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de Sevilla",
+        "file": "documentos/30._Universidad_de_Sevilla_-_ESPA__A.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Espa\u00f1a",
+        "institution": "Universidad Polit\u00e9cnica de Valencia (UPV)",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Polit\u00e9cnica de Valencia (UPV)",
+        "file": "documentos/32._Universidad_Polit__cnica_de_Valencia__UPV__-_ESPA__A.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Espa\u00f1a",
+        "institution": "Universidad Miguel Hern\u00e1ndez de Elche",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad Miguel Hern\u00e1ndez de Elche",
+        "file": "documentos/33._Universidad_Miguel_Hern__ndez_de_Elche_-_ESPA__A.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Espa\u00f1a",
+        "institution": "Universidad de Santiago de Compostela",
+        "title": "Convenio de Cooperaci\u00f3n con Universidad de Santiago de Compostela",
+        "file": "documentos/34._Universidad_de_Santiago_de_Compostela_-_ESPA__A.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Francia",
+        "institution": "Institut National des Sciences Appliquees de Toulouse (INSA)",
+        "title": "Convenio de Cooperaci\u00f3n con Institut National des Sciences Appliquees de Toulouse (INSA)",
+        "file": "documentos/35._Institut_National_des_Sciences_Appliquees_de_Toulouse__INSA__-_FRANCIA.pdf",
+        "scope": "internacional"
+    },
+    {
+        "country": "Per\u00fa",
+        "institution": "Universidad Nacional del Callao",
+        "title": "Convenio de Cooperaci\u00f3n Interinstitucional con Universidad Nacional del Callao",
+        "file": "documentos/1._Universidad_Nacional_del_Callao_-_PER__.pdf",
+        "scope": "nacional"
+    },
+    {
+        "country": "Per\u00fa",
+        "institution": "Universidad T\u00e9cnica del Norte UTN",
+        "title": "Convenio de Cooperaci\u00f3n Interinstitucional con Universidad T\u00e9cnica del Norte UTN",
+        "file": "documentos/10._Universidad_T__cnica_del_Norte_UTN_-_PER__.pdf",
+        "scope": "nacional"
+    },
+    {
+        "country": "Per\u00fa",
+        "institution": "Universidad Nacional Intercultural de Quillabamba",
+        "title": "Convenio de Cooperaci\u00f3n Interinstitucional con Universidad Nacional Intercultural de Quillabamba",
+        "file": "documentos/2._Universidad_Nacional_Intercultural_de_Quillabamba_-_PER__.pdf",
+        "scope": "nacional"
+    },
+    {
+        "country": "Per\u00fa",
+        "institution": "Universidad Nacional Amaz\u00f3nica de Madre de Dios (UNAMAD)",
+        "title": "Convenio de Cooperaci\u00f3n Interinstitucional con Universidad Nacional Amaz\u00f3nica de Madre de Dios (UNAMAD)",
+        "file": "documentos/3._Universidad_Nacional_Amaz__nica_de_Madre_de_Dios__UNAMAD__-PER__.pdf",
+        "scope": "nacional"
+    },
+    {
+        "country": "Per\u00fa",
+        "institution": "Universidad Peruana de Ciencias Aplicadas SAC (UPC)",
+        "title": "Convenio de Cooperaci\u00f3n Interinstitucional con Universidad Peruana de Ciencias Aplicadas SAC (UPC)",
+        "file": "documentos/4._Universidad_Peruana_de_Ciencias_Aplicadas_SAC__UPC__-_PER__.pdf",
+        "scope": "nacional"
+    },
+    {
+        "country": "Per\u00fa",
+        "institution": "Universidad de Ingenier\u00eda y Tecnolog\u00eda",
+        "title": "Convenio de Cooperaci\u00f3n Interinstitucional con Universidad de Ingenier\u00eda y Tecnolog\u00eda",
+        "file": "documentos/5._Universidad_de_Ingenier__a_y_Tecnolog__a_-_UTEC_-_PER__.pdf",
+        "scope": "nacional"
+    },
+    {
+        "country": "Per\u00fa",
+        "institution": "Universidad ESAN",
+        "title": "Convenio de Cooperaci\u00f3n Interinstitucional con Universidad ESAN",
+        "file": "documentos/6._Universidad_ESAN_-_PER__.pdf",
+        "scope": "nacional"
+    },
+    {
+        "country": "Per\u00fa",
+        "institution": "Universidad Andina del Cusco",
+        "title": "Convenio de Cooperaci\u00f3n Interinstitucional con Universidad Andina del Cusco",
+        "file": "documentos/7._Universidad_Andina_del_Cusco_-PER__.pdf",
+        "scope": "nacional"
+    },
+    {
+        "country": "Per\u00fa",
+        "institution": "Universidad Nacional de Huancavelica",
+        "title": "Convenio de Cooperaci\u00f3n Interinstitucional con Universidad Nacional de Huancavelica",
+        "file": "documentos/8._Universidad_Nacional_de_Huancavelica_-_PER__.pdf",
+        "scope": "nacional"
+    },
+    {
+        "country": "Per\u00fa",
+        "institution": "Universidad Nacional de Frontera",
+        "title": "Convenio de Cooperaci\u00f3n Interinstitucional con Universidad Nacional de Frontera",
+        "file": "documentos/9._Universidad_Nacional_de_Frontera_-_PER__.pdf",
+        "scope": "nacional"
+    }
+]
