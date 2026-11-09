@@ -10,6 +10,7 @@
 [![Windows IIS](https://img.shields.io/badge/IIS-10.0%2B-0078D7?style=flat&logo=windows&logoColor=white)](https://www.iis.net/)
 [![WCAG](https://img.shields.io/badge/Accessibility-WCAG%202.2%20AA-008080?style=flat)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 [![Security](https://img.shields.io/badge/Security-OWASP%20Top%2010-green?style=flat)](https://owasp.org/)
+[![Version](https://img.shields.io/badge/Release-v2.0.0-0F5132?style=flat&logo=git&logoColor=white)](https://github.com/jeferlpx/WEB-OGI-EJEMPLO/releases/tag/v2.0.0)
 
 > **Repositorio Oficial:** [jeferlpx/WEB-OGI-EJEMPLO](https://github.com/jeferlpx/WEB-OGI-EJEMPLO)  
 > Sistema de modernización integral que sustituye el portal histórico de la antigua ORI (`/rectorado/ORI/`), dotando a la UNALM de una plataforma web accesible, bilingüe (ES/EN), de alto rendimiento y con una intranet administrativa de gestión editorial con control de acceso basado en roles (RBAC) y auditoría inmutable.

@@ -1,8 +1,9 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "unalm/portal-ogi",
+    "version": "2.0.0",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "Portal Institucional y CMS Intranet OGI - Universidad Nacional Agraria La Molina",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
